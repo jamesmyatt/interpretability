@@ -1,0 +1,18 @@
+name: interpretability
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - jupyter
+  - scipy
+  - matplotlib=3.*
+  - seaborn
+  - joblib
+  - scikit-learn=0.21.*
+  - tensorflow=1.*
+  - shap
+  - tqdm
+  - pip=19.*
+  - pip:
+    - pdpbox
